@@ -13,8 +13,6 @@ The repository includes scripts for capturing game screens, processing the captu
 
 Feel free to explore the code, modify it according to your requirements, and experiment with different approaches to improve the AI agent's performance.
 
----
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -22,15 +20,11 @@ Feel free to explore the code, modify it according to your requirements, and exp
 - [Contributing](#contributing)
 - [License](#license)
 
----
-
 ## Prerequisites
 
 - Python 3.10
 - PyTorch 1.10.0
 - CUDA Toolkit 11.1 (for GPU acceleration)
-
----
 
 ## Installation
 
@@ -54,8 +48,6 @@ To get started with the project, follow these steps:
     conda activate dino
     ```
 
----
-
 ## Usage
 
 1. Start playing the [Chrome Dino Game](https://chromedino.com/)
@@ -73,8 +65,6 @@ To get started with the project, follow these steps:
     ```
 
 4. Train the AI model using the [train.ipynb](Train.ipynb) notebook
-
----
 
 ## Contributing
 
@@ -100,8 +90,6 @@ Please note the following guidelines for contributing:
 By contributing to this project, you agree to abide by the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
 
 Thank you for your support and contributions!
-
----
 
 ## License
 
