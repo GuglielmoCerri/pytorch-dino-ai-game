@@ -55,16 +55,16 @@ To get started with the project, follow these steps:
 2. Capture the game screens by running the captures.py script:
 
     ```shell
-    python captures.py
+    python src/captures.py
     ```
 
 3. Process the captured images and create a dataset using the process.py script:
 
     ```shell
-    python process.py
+    python src/process.py
     ```
 
-4. Train the AI model using the [train.ipynb](Train.ipynb) notebook
+4. Train the AI model using the [train.ipynb](notebook/Train.ipynb) notebook
 
 ## Contributing
 
