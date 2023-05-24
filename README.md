@@ -52,13 +52,13 @@ To get started with the project, follow these steps:
 
 1. Start playing the [Chrome Dino Game](https://chromedino.com/)
 
-2. Capture the game screens by running the captures.py script:
+2. Capture the game screens by running the [captures.py](src/captures.py) script:
 
     ```shell
     python src/captures.py
     ```
 
-3. Process the captured images and create a dataset using the process.py script:
+3. Process the captured images and create a dataset using the [process.py](src/process.py) script:
 
     ```shell
     python src/process.py
@@ -66,7 +66,7 @@ To get started with the project, follow these steps:
 
 4. Train and Test the AI model using the [train_test.ipynb](notebook/Train_Test.ipynb) notebook
 
-5. Watch the AI play the game using dino.py. The script automatically pressing the space bar based on the model's predictions.
+5. Watch the AI play the game using [dino.py](src/dino.py). The script automatically pressing the space bar based on the model's predictions.
 
     ```shell
     python src/dino.py
