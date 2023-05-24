@@ -64,7 +64,13 @@ To get started with the project, follow these steps:
     python src/process.py
     ```
 
-4. Train the AI model using the [train.ipynb](notebook/Train.ipynb) notebook
+4. Train and Test the AI model using the [train_test.ipynb](notebook/Train_Test.ipynb) notebook
+
+5. Watch the AI play the game using dino.py. The script automatically pressing the space bar based on the model's predictions.
+
+    ```shell
+    python src/dino.py
+    ```
 
 ## Contributing
 
@@ -94,3 +100,7 @@ Thank you for your support and contributions!
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Chrome Dinosaur Game](https://chromedino.com/)
