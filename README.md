@@ -71,6 +71,10 @@ To get started with the project, follow these steps:
     ```shell
     python src/dino.py
     ```
+## Future Development
+
+- **Add DownKey class**: As the AI agent currently only supports jumping over obstacles, the game's versatility is limited. The aim of this issue is to introduce a new class called 'DownKey' that would allow the AI agent to duck under obstacles.
+- **Real-time Performance Metrics**: To display The AI's performance metrics in real-time during game play.
 
 ## Contributing
 
