@@ -19,7 +19,7 @@ if not os.path.isfile(model_path):
 
 model.load_state_dict(torch.load(model_path, map_location='cpu'))
 
-# Check if CUDA is available - if not using cpu
+# Check if CUDA is available - if not using cpu as the notebook
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Running on device: {device}")
 
